@@ -1,0 +1,476 @@
+/* Body
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.7em;
+}
+
+p {
+	font-weight: 300;
+}
+
+.mini-space {
+	padding: 50px;
+}
+
+.space {
+	padding: 100px;
+}
+
+.font-heavy {
+	font-weight: 400;
+}
+
+
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.logo {
+	color: white;
+	height: 40px;
+	display: block;
+}
+
+#logo-text {
+	color: white;
+	margin-left: -16px;
+}
+
+#logoOrange {
+	color: orange;
+}
+
+.header {
+	z-index: 10;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	position: fixed;
+}
+
+.header .row {
+	padding-top: 30px
+}
+
+.header ul {
+	margin-right: -10%;
+}
+
+.header li {
+	display: inline-block;
+	margin: 0 20px;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+.header a {
+	color: white;
+	text-decoration: none;
+	padding-bottom: 10px;
+}
+
+
+/* Navigation Effect
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header li :hover {
+	border-bottom: 2px solid orange;
+}
+
+.active {
+	border-bottom: 2px solid orange;
+}
+
+.sticky {
+	position: fixed;
+	background-color: #fff5d9;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	z-index: 11;
+}
+
+.sticky .row {
+	padding-top: 0px;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.sticky #logotext {
+	color: grey;
+}
+
+.sticky a {
+	color: black;
+}
+
+.sticky .logo {
+	color: white;
+	height: 48px;
+	display: block;
+	margin-top: 9px;
+}
+
+.borderNav {
+	border-bottom: 1px solid grey;
+}
+
+.navigation {
+	margin-top: 12px;
+}
+
+
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.hero-section {
+	width: 100%;
+	height: 90vh;
+	overflow: hidden;
+}
+
+.overlay {
+	width: 100%;
+	height: 100vh;
+	background-image: url(../images/helloquence-61189-unsplash.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	-webkit-animation: zoomin 50s 1;
+}
+
+.hero-section .button {
+	display: inline-block;
+	height: 38px;
+	padding: 0 30px;
+	color: #fff;
+	text-align: center;
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 38px;
+	letter-spacing: .1rem;
+	text-transform: none !important;
+	text-decoration: none;
+	white-space: nowrap;
+	border-radius: 4px;
+	border: 1px solid #ffa815e6;
+	cursor: pointer;
+	box-sizing: border-box;
+	font-weight: 300;
+}
+
+.hero-section .button:hover {
+	border: 1px solid white;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+
+/* Computer Screen
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.computerScreen {
+	position: absolute;
+	top: 38%;
+	left: 32%;
+	color: white;
+	width: 35%;
+	text-align: center;
+	font-size: 4rem;
+}
+
+.computerScreen h5 {
+	font-size: 3.4rem;
+}
+
+.color-orange {
+	color: orange;
+}
+
+
+/* Social buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.sos-med {
+	position: absolute;
+	right: 2%;
+	top: 5%;
+}
+
+.sos-med-list {
+	list-style: none;
+}
+
+.sos-med li img {
+	width: 35px;
+	height: 35px;
+}
+
+
+/* Intro-section
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.intro-section {
+	font-weight: 300;
+}
+
+.intro-section a {
+	text-decoration: none;
+	color: #b1812a;
+}
+
+
+/* banner1-section
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.banner1-section {
+	background-image: url(../images/lastned.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+	color: white;
+}
+
+
+/* Tjenester-section
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.tjenester-section h5 {
+	margin-bottom: 15px;
+	display: inline-block;
+	text-align: center;
+	color: orange;
+}
+
+.tjenester-section p {
+	color: #8b8c8c;
+}
+
+.tjenester-section .fa {
+	padding: 7px;
+	color: #de7d16;
+	border: 1px solid;
+	display: inline-block;
+}
+
+.tjenester-section .one-third {
+	min-height: 100px;
+	margin-top: 30px;
+}
+
+
+/* Priser-section
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.priser-section {
+	padding-bottom: 100px;
+}
+
+
+/* bli-sett-banner-section-section
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.bli-sett-banner-section {
+	background-image: url(../images/michal-grosicki-3660201.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	color: white;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+	padding: 120px;
+}
+
+.bli-sett-banner-section a {
+	color: white;
+}
+
+.bli-sett-banner-section .one-half .button {
+	color: white;
+}
+
+
+/* banner2-section
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.banner2-section {
+	background-image: url(../images/helloquence-61189-unsplash.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+	color: white;
+}
+
+
+/* klient-arbeid -section
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.client-section {
+	background: #f9fbfd;
+}
+
+.ref-box {
+	border: 3px solid black;
+	height: 270px;
+}
+
+.one-third-box {
+	width: 31%;
+	position: relative;
+	height: 300px;
+	display: inline-block;
+	margin: 10px;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	border-radius: 7px;
+}
+
+.custom-boxes {
+	font-size: 0px;
+	text-align: center;
+}
+
+#box1 {
+	//	background-image: url(../images/michal-grosicki-3660201black.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background: #ff5b5b;
+	background-position: 50% 50%;
+}
+
+#box2 {
+	width: 63.333%;
+	background-image: url(../images/boasson1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+#box3 {
+	background-image: url(../images/janthore.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	background-position: 50% 50%;
+}
+
+#box4 {
+	//		background-image: url(../images/iMac5kRetina.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: orange;
+	background-position: 50% 50%;
+}
+
+#box5 {
+	background-image: url(../images/hurumgolf1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	/* background-position: 50% 50%; */
+}
+
+#box6 {
+	/* background-image: url(../images/michal-grosicki-3660201black.png); */
+	background-color: #005880;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	background-position: 50% 50%;
+}
+
+.box-overlay {
+	background: black;
+	z-index: 9;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	opacity: 0.5;
+}
+
+.box-overlay:hover {
+	opacity: 0;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+
+/* referanse-banner-section
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#referanser {
+	width: 100%;
+}
+
+
+/* bottom-footer-section
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.bottom-footer-section {
+	background-color: #2b2929;
+}
+
+.bottom-footer-section p {
+	color: white;
+	padding: 10px;
+	opacity: 0.8;
+}
+
+.footer-info-right-bottom {
+	text-align: center;
+}
+
+
+/* Gradient transparent - color - transparent */
+
+hr.style-two {
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+/* Inset, by Dan Eden */
+
+hr.style-six {
+	border: 0;
+	height: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.shot {
+	animation-duration: 1.5s;
+	animation-fill-mode: both;
+}
+
+.hidden {
+	opacity: 0;
+}
+
+
+/* media queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 1050px) {
+	.client-section {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
